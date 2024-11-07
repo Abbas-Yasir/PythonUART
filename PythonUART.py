@@ -32,7 +32,7 @@ def lla2ecef(lat, lon, alt):
 
 def parse_nmea():
     # Define Serial Port parameters
-    port = 'COM8'  # Set the appropriate port
+    port = 'ttyUSB0'  # Set the appropriate port
     baud_rate = 115200
     data_bits = 8
     stop_bits = 1
