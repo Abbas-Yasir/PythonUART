@@ -7,7 +7,7 @@ print ("Bismillah")
 import serial
 
 def main():
-    port = "COM5"  # Change this to your actual COM port
+    port = "ttyUSB0"  # Change this to your actual COM port
     baudrate = 9600  # Adjust as needed
     data_bits = 8
     stop_bits = 1
